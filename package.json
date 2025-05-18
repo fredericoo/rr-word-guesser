@@ -7,7 +7,7 @@
     "build": "vite build",
     "start": "vite preview",
     "deploy": "wrangler deploy",
-    "typecheck": "bun rr:typegen && bun cf:typegen && tsc",
+    "typecheck": "pnpm rr:typegen && pnpm cf:typegen && tsc",
     "rr:typegen": "react-router typegen",
     "rr:routes": "react-router routes",
     "cf:typegen": "wrangler types"
